@@ -1,0 +1,60 @@
+.main_wrap {
+  top: 100px;
+  z-index: -1;
+}
+.gallert_wrap {
+  width: 1600px;
+  margin: 0 auto;
+}
+.gal_inner{
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.gal_txt {
+  float: left;
+  position: relative;
+  width: 520px;
+  height: 284px;
+  margin-top: 230px;
+}
+.gal_tit {
+  font-size: 96px;
+}
+.gal_tit span {
+  font-size: 144px;
+  color: #d67d70;
+}
+.gal_sub {
+  position: absolute;
+  font-size: 36px;
+  left: 220px;
+  bottom: 0;
+}
+.gal_gal {
+  width: 1035px;
+  float: left;
+}
+.gal_gal li {
+  margin-bottom: 33px;
+}
+
+.gal_gal li a {
+  display: inline-block;
+  width: 320px;
+  height: 420px;
+  margin-right: 33px;
+}
+
+.gal_gal li a:last-child {
+  margin-right: 0;
+}
+
+.gal_gal li a img {
+  width: 320px;
+  height: 420px;
+}
+
+.header_c {
+  color: #000;
+}

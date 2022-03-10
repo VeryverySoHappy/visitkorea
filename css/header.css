@@ -1,0 +1,111 @@
+.main_wrap {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header_wrap {
+  position: relative;
+  width: 1600px;
+  height: 85px;
+  right: 50%;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  width: 1600px;
+  height: 85px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header_logo {
+  float: left;
+  margin-right: 80px;
+  margin-top: 20px;
+}
+
+.header_logo img {
+  height: 45px;
+}
+
+.gnb > ul > li {
+  float: left;
+  width: 200px;
+  height: 85px;
+  text-align: center;
+  line-height: 85px;
+  font-size: 18px;
+}
+
+.gnb> ul > li > ul > li {
+  height: 50px;
+  font-size: 16px;
+}
+
+.gnb > ul > li > a {
+  font-weight: bold;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.gnb > ul > li > a:hover {
+  color: #d67d70;
+}
+
+.aside {
+  float: right;
+}
+
+.aside ul li {
+  float: left;
+  height: 45px;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-right: 30px;
+  line-height: 45px;
+}
+
+/* 언어변경 start */
+.lang_wrap legend {
+  display: inline-block;
+  width: 1px;
+  height: 1px;
+  text-indent: -9999em;
+}
+
+.lang_wrap select {
+  width: 100px;
+  height: 47px;
+  padding: 8px;
+  border-radius: 8px;
+  border-color: #fff;
+  background-color: rgba(0, 0, 0, 0.041);
+  color: #fff;
+  font-size: 18px;
+}
+
+.lang_wrap select option {
+  color: #000;
+}
+
+.lang_wrap button {
+  width: 45px;
+  height: 45px;
+  background-color: rgba(0, 0, 0, 0.041);
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 25px;
+}
+/* 언어변경 end */
+
+.aside li i {
+  color: #fff;
+}
+
+.aside li:last-child i {
+  color: #000;
+}

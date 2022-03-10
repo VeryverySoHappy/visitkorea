@@ -1,0 +1,81 @@
+@charset "utf-8";
+body, div, header, footer, aside, article, nav, ul, li, ol, form, span, input, img, p, span, em, section,iframe, label, legend, select,img, fieldset,
+strong, h1, h2, h3, h4, h5, h6, a {
+  margin: 0;
+  padding: 0;
+}
+header, footer, aside, article, nav, section {
+  display: block;
+}
+body, input, select {
+  font-size: 12px;
+  color: #222;
+  font-family: 'Noto Sans KR', sans-serif, 'Nanum','나눔고딕','돋움','dotum' ;
+}
+ul, ol {
+  list-style: none;
+}
+
+em, address, i {
+  font-style: normal;
+}
+
+strong {
+  font-weight: 400;
+}
+
+img, fieldset {
+  border: 0 none;
+}
+
+img, input, select {
+  vertical-align: middle;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus  {
+  color: #222;
+  text-decoration: none;
+}
+
+.skip {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  line-height: 0;
+  font-size: 0;
+  text-indent: -9999px;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#skipNavi {
+  width: 100%;
+  position: relative;
+  z-index: 9999;
+}
+
+#skipNavi a {
+  position: absolute;
+  top: -100px;
+  text-decoration: none;
+}
+
+#skipNavi a:hover,
+#skipNavi a:active,
+#skipNavi a:focus {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: block;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}

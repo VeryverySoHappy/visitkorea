@@ -1,0 +1,108 @@
+.main_wrap .sub_wrap {
+  width: 100%;
+  height: 60px;
+  z-index: 1;
+  font-size: 16px;
+}
+.main_wrap .sub_wrap .quick_wrap {
+  width: 1600px;
+  height: inherit;
+  margin: 0 auto;
+  position: relative;
+}
+.sub_wrap .quick_wrap .sub_link {
+  float: left;
+}
+.quick_wrap .sub_link div {
+  float: left;
+  height: 60px;
+}
+.quick_wrap .sub_link .home{
+  width: 60px;
+  text-align: center;
+  background-color: #d67d70;
+  height: 60px;
+}
+.sub_link .home a {
+  color: #fff;
+  line-height: 70px;
+}
+.sub1,
+.sub2,
+.sub3 {
+  width: 200px;
+}
+
+.sub1-btn,
+.sub2-btn,
+.sub3-btn,
+.sns_link {
+  width: inherit;
+  height: 60px;
+  font-size: 16px;
+  color: #413F3C;
+  background: #fff;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.sub1-btn i,
+.sub2-btn i,
+.sub3-btn i {
+  color: #d67d70;
+  margin-left: 15px;
+}
+
+
+.sub1-submenu, 
+.sub2-submenu,
+.sub3-submenu,
+.sns_submenu {
+  display: none;
+  width: inherit;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+  background-color: #fff;
+}
+.sub1-submenu a, 
+.sub2-submenu a, 
+.sub3-submenu a,
+.sns_submenu a {
+  display: block;
+  padding: 15px;
+  text-align: center;
+}
+
+.sub1:hover a,
+.sub2:hover a,
+.sub3:hover a,
+.sns_link:hover a {
+  background-color: #fff;
+}
+.sub1:hover .sub1-submenu,
+.sub2:hover .sub2-submenu,
+.sub3:hover .sub3-submenu,
+.sns_link:hover .sns_submenu {
+  display: block;
+}
+
+.sub_share {
+  position: absolute;
+  text-align: center;
+  right: 0;
+}
+.sub_share div{
+  float: left;
+  width: 80px;
+  height: 60px;
+  line-height: 60px;  
+}
+
+.sub_share i {
+  color: #413f3c;
+  font-size: 25px;
+}
+
+.sub_share .sns_link .sns_btn {
+  border: none;
+}
