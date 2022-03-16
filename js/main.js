@@ -6,6 +6,9 @@ $(document).ready(function(){
             $(this).css({
                 color:'#d67d70'
             })
+            $(this).parent().find('.subwrap').css({
+                backgroundColor:'',
+            })
 
             $('.subwrap').show();
             $('.subbg').show();
@@ -15,7 +18,9 @@ $(document).ready(function(){
             $(this).css({
                 color:'#fff'
             })
-
+            $(this).parent().find('.subwrap').css({
+                backgroundColor:''
+            })
             $('.subwrap').hide();
             $('.subbg').hide();
         }

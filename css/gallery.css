@@ -1,6 +1,6 @@
 .main_wrap {
   top: 100px;
-  
+  z-index: -1;
 }
 .gallert_wrap {
   width: 1600px;
