@@ -98,8 +98,8 @@
                   </fieldset>
                 </form>
               </li>
-              <li><a href="#"><i class="fa-solid fa-user fa"></i></a></li>
-              <li><a href="#"><i class="fa-solid fa-bars fa"></i></a></li>
+              <li><a href="#"><i class="fa-solid fa-user fa sub_icon"></i></a></li>
+              <li><a href="#"><i class="fa-solid fa-bars fa sub_icon"></i></a></li>
             </ul>
           </div>
         </nav>
@@ -119,7 +119,6 @@
                 <li><a href="#">공사</a></li>
               </ul>
             </li>
-    
             <li class="sub">
               <button class="sub-btn">갤러리<i class="fa-solid fa-angle-down fa"></i></button>
               <ul class="sub-submenu">
@@ -129,7 +128,6 @@
                 <li><a href="#">한국관광공사TV</a></li>
               </ul>
             </li>
-    
             <li class="sub">
               <button class="sub-btn">K-Style<i class="fa-solid fa-angle-down fa"></i></button>
               <ul class="sub-submenu">
@@ -162,27 +160,40 @@
         <section>
           <div class="dp">
             <div class="dp_wrap">
-              <div class="dp_left">
-                <ul class="bigI">
-                  <li class="on"><img src="./img/gallery detail page/dp3.png" alt=""></li>
-                  <li><img src="./img/gallery detail page/dp5.png" alt=""></li>
-                  <li><img src="./img/gallery detail page/dp8.png" alt=""></li>
-                  <li><img src="./img/gallery detail page/dp6.png" alt=""></li>
-                </ul>
-                <div class="relatedI"><span class="list_title">관련</span> 사진</div>
-                <div class="smallI">
-                  <ul class="smallI_list">
-                    <li><a href="#" class="on"><img src="./img/gallery detail page/dp3.png" alt=""/></a></li>
-                    <li><a href="#"><img src="./img/gallery detail page/dp5.png" alt=""/></a></li>
-                    <li><a href="#"><img src="./img/gallery detail page/dp8.png" alt=""/></a></li>
-                    <li><a href="#"><img src="./img/gallery detail page/dp6.png" alt=""/></a></li>
+              <div class="dp_gallery">
+                <div class="dp_photo" id="dp_photo">
+                  <img src="./img/gallery_detail_page/dp1.png" alt="">
+                </div>
+                <div class="relatedI"><span class="list_title">관련</span> 사진</div>                
+                <div class="dp_photo_list">
+                  <ul class="dp_list" id="dp_inner_list">
+                    <li>
+                      <a href="./img/gallery_detail_page/dp1.png">
+                        <img src="./img/gallery_detail_page/dp1.png" alt="">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./img/gallery_detail_page/dp2.png">
+                        <img src="./img/gallery_detail_page/dp2.png" alt="">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./img/gallery_detail_page/dp3.png">
+                        <img src="./img/gallery_detail_page/dp3.png" alt="">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./img/gallery_detail_page/dp4.png">
+                        <img src="./img/gallery_detail_page/dp4.png" alt="">
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>
               <div class="dp_right">
                 <div class="dp_txt">
                   <h2>K - STYLE</h2>
-                  <p>
+                  <p class="K_STYLE_txt">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit mollitia magni quaerat nemo, dignissimos exercitationem possimus fugiat illo omnis minus! Veritatis in aliquam eius ab necessitatibus adipisci hic vero architecto.
                   </p>
                 </div>
@@ -193,7 +204,6 @@
         <!-- gallery detail page end -->
       </div>
     </div>
-    
     <!-- footer start -->
     <footer class="footer">
       <div class="footer_wrap clearfix">
@@ -243,12 +253,10 @@
     <!-- footer end -->
   </div>
   <!-- script start -->
-  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=1430e60c4f280203c74e95c584e25a7c"></script>
-  <script src="./js/map.js"></script>
   <script src="./js/jquery-1.9.0.js"></script>
   <script src="./js/header.js"></script>
-  <script src="./js/section1.js"></script>
-  <script src="./js/section2.js"></script>
-<!-- script end -->
+  <script src="./js/gallery detail page.js"></script>
+  <script src="./js/footer.js"></script>
+  <!-- script end -->
 </body>
 </html>

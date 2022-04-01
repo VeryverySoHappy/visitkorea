@@ -112,6 +112,7 @@
 }
 .submit_btn i {
   float: right;
+  margin: 3px;
 }
 .save_btn {
   background-color: #d67d70;

@@ -34,22 +34,13 @@ nav.sub_nav {
   position: relative;
   z-index: 999;
 }
-/* .subwrap{
-  background-color: #413f3cc6;
-  height: 300px;
-  color: #fff;
-} */
-/* .subwrap{
-  background-color: #5294A7;
-  height: 300px;
-  color: #fff;
-} */
 .subwrap{
   background-color: #d67d70;
   height: 300px;
   color: #fff;
 }
-.subwrap li a {
+.main_subwrap {background:none;}
+.gnb ul li .subwrap li a {
   color: #fff;
 }
 .gnb > ul > li {
@@ -101,7 +92,8 @@ a.sub_header {color: #413f3c;}
 .lang_wrap .sub_select {
   background-color: #5294A7;
 }
-.lang_wrap select option {color: #000;}
+.lang_wrap select option {color: #fff;}
+.lang_wrap select option.main_option {color: #413f3c;}
 .lang_wrap button {
   width: 45px;
   height: 45px;
@@ -113,8 +105,8 @@ a.sub_header {color: #413f3c;}
 }
 /* 언어변경 end */
 .aside li i {color: #fff;}
-.aside li:last-child i {color: #000;}
-
+.aside li:last-child i {color: #413f3c;}
+.aside li .sub_icon {color: #413f3c;}
 /* subheader start */
 .sub_wrap {
   width: 100%;
@@ -176,7 +168,7 @@ a.sub_header {color: #413f3c;}
   height: 250px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
   background-color: #fff;
-  z-index: 1;
+  z-index: 999;
 }
 .sub-submenu li{
   display: block;
@@ -184,7 +176,8 @@ a.sub_header {color: #413f3c;}
 }
 .sub-submenu li a{
   display: block;
-  padding-left: 5px;}
+  width: 150px;
+}
 .sub:hover .sub-submenu,
 .sns_link:hover .sns_submenu {
   display: block;
@@ -195,25 +188,25 @@ a.sub_header {color: #413f3c;}
   transform: translateX(-50%);
 }
 .sub_share {float: right;}
-.sub_share li {
+.sub_share > li {
   float: left;
-  padding: 0 20px;
+  width: 52px;
   height: 60px;
   line-height: 60px;
-}
-.sub_share li {
-  float: left;
-  padding: 0 30px;
-  height: 60px;
-  line-height: 60px;  
 }
 .sub_share i {
   color: #413f3c;
   font-size: 25px;
 }
 .sub_share .print {cursor: pointer;}
-.sns_submenu {
+.sns_submenu{
   display: none;
   position: absolute;
+  width: 100px;
+  height: 305px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+  background-color: #fff;
+  z-index: 999;
 }
 /* subheader end */
