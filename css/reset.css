@@ -83,3 +83,6 @@ a:focus  {
 select, button, input, img {
   vertical-align: middle;
 }
+table {
+  border-collapse: collapse;
+}
