@@ -1,10 +1,18 @@
-.main_wrap {
-  top: 100px;
-  z-index: -1;
+.gallery_sub_wrap {
+  position: relative;
+  width: 100%;
 }
-.gallert_wrap {
+.hdmain_wrap {
+  position: relative;
+  width: 100%;
+}
+.main_wrap {
+  width: 100%;
+  clear: both;
+}
+.gallery_wrap {
   width: 1600px;
-  margin: 0 auto;
+  margin: 60px auto;
 }
 .gal_inner{
   width: 1600px;

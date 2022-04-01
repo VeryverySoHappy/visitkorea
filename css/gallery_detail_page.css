@@ -1,21 +1,26 @@
-.main_wrap {
-  top: 100px;
-  /* z-index: -1; */
+.gallery_sub_wrap {
+  position: relative;
+  width: 100%;
 }
-
+.hdmain_wrap {
+  position: relative;
+  width: 100%;
+}
+.main_wrap {
+  width: 100%;
+  clear: both;
+}
 .dp {
   position: relative;
   width: 100%;
-  height: 100vh;
   /* z-index: -3; */
 }
 .dp_wrap {
-  position: absolute;
   width: 1600px;
-  height: 711px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 220px auto;
 }
 
 .dp_left {
@@ -24,7 +29,6 @@
   position: relative;
   float: left;
 }
-
 .bigI {
   /* position: absolute;
   top: 0;
@@ -32,7 +36,6 @@
   width: 946px;
   height: 543px;
 }
-
 .bigI > li {
   position: absolute;
   top: 0;
